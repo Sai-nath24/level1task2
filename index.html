@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b22d31ff74.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src='images/download.jpeg' class="logo"/>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p1>FrontEnd Developer</p1>
+                <h1>Hi, I am <span>Sai Nath</span><br>from Rayalaseema</h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="'container">
+        <div class="row">
+            <div class="'about-col-1">
+                <img src="images/IMG_20221102_182908_068.jpg" width="500px" height="500px" border-radius="40px 40px 0 0">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p style="font-size: 20px;">
+         
+                  I am sainath.I am basically from Rayalaseema but currently staying in vishakapatnam.I am currently pursuing computer
+                  scinece and Enginnering in Gayatri vidya parishad collge of Enginnering.I complted
+                  my intermediate at sastra academy in Vijaywada.
+                 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web app Interfaces</li>
+                        <li><span>React Native</span><br>Designing Mobile app Interfaces</li>
+                        <li><span>Python</span><br>Advanced Programming</li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="experience">
+                    <ul>
+                        <li><span>oyasisinfobyte internship</span><br>Designing Web app Interfaces</li>
+                        <li><span>Whatsapp clone project</span><br>Designing Mobile app Interfaces using react native</li>
+                        <!-- <li><span>Python</span><br>Advanced Programming</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech</span><br>Final Year student at Gayatri Vidya parishad</li>
+                        <li><span>Intermediate</span><br>Completed at Sastra Academy in Vijayawada,2020</li>
+                        <li><span>S.S.C</span><br>Completed SSC at Sri Balaji School In Ananatapur,2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="'container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <br>
+                <p>I am designer,i can able to develop robust applications</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <br>
+                <p>I am App devloper ,i can able to create apps intefaces using react-native
+                    Apps are more scalable and efficent.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <br>
+                <p>I am web and mobile intefaces UI/UX designer</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------portfolio--------------->
+<div id="port">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-3.png"/>
+                <div class="layer">
+                    <h3>Whatsapp Clone</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png"/>
+                <div class="layer">
+                    <h3>music  app</h3>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="images/work-3.png"/>
+                <div class="layer">
+                    <h3>music  app</h3>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+<!-------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="'sub-title">Contact Me</h1>
+               <p>gollapallisainath24@gmail.com</p>
+               <p>9381117038</p>
+               <div class="social-icons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <br>
+               <a href="images/MANGALA SAINATH (7).pdf" download class="btn btn2" style="width:100px; height:50px;justify-content: center;align-items: center;">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name='Name' placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Eamil" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+ var tablinks=document.getElementsByClassName('tab-links');
+ var tabcontents=document.getElementsByClassName('tab-contents');
+ function opentab(tabname){
+   for(tablink of tablinks){
+    tablink.classList.remove('active-link');
+   }
+   for(tabcontent of tabcontents){
+    tabcontent.classList.remove('active-tab');
+   }
+   event.currentTarget.classList.add('active-link');
+   document.getElementById(tabname).classList.add('active-tab');
+ }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxeqDNzJf1i4pF9gDNHQrXO0cz38BIeevBIWwq9Co8YOD08dWFTTAjbKHAhawRjEhZo/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML='Messagee sent Succesfully'
+            setTimeout(function(){
+                msg.innerHtml=" "
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
